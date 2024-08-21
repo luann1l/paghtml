@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+*{
+  margin: 10px;
+  width: auto; /*1920px desktop, 758px tablet e 320px mobile*/
+
+}
+body{
+    background-color: rgb(250, 250, 250);
+    /* background-image: ; */
+}
+h1{
+    text-align: center;
+
+}
+
+img{
+  height: 300px;
+  width: 250px;
+  
+}
+
+/* estilo do menu de navegaçao*/
+nav {
+  background-color: rgb(255, 0, 144); /*cor de fundo*/
+  padding: 10px 0; /*Espaçamento inteiro*/
+}
+
+nav ul{
+    list-style-type: none; /* remove as bolinhas padrao da lista*/
+    margin: 0;
+    padding: 0;
+    display: flex; /*Faz com que os itens fiquem lado a lado (horizontal)*/ 
+          justify-content: center; /* Centraliza os itens horizontalmente*/
+}
+
+nav ul li a {
+  margin: 0 15px; /* Espaçamento entre os itens do menu*/
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0); /* Cor do texto dos links*/
+  text-decoration: none; /* Remove o sublinhados dos links*/
+  font-size: 18px; /*Tamanho da fonte*/
+  transition: color 0.3s; /*Transiçao suave para a mudança de cor */
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav ul li a:hover {
+   color:rgb(0, 0, 0); /* cor do texto ao passar o mouse(hover)*/
+
+}
+
+nav ul li img {
+   height: 33px;
+   width:33px;
+   
+}
